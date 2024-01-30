@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import './Navigationsbar.js'
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/layout/header/Header";
 
 function App() {
   return (
     <div className="App">
-      <nav className="navbar">
+      <nav className="App-header">
+        <Header />
       </nav>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
