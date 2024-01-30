@@ -2,7 +2,9 @@ import styles from "./Content.module.css";
 function Content() {
   return (
     <div className={styles.contentmain}>
-      <div></div>
+      <div>
+        <p className={styles.contentText}>Hier kommen die Fotos rein</p>
+      </div>
     </div>
   );
 }

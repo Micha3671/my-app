@@ -2,7 +2,9 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <div className={styles.footermain}>
-      <div></div>
+      <div>
+        <p className={styles.footerText}>Dies ist der Footer-Text.</p>
+      </div>
     </div>
   );
 }
