@@ -2,7 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/layout/header/Header";
 import Navbar from "./components/layout/navbar/Navbar";
-import Content from "./components/layout/navbar/Content";
+import Content from "./components/layout/content/Content";
+import Footer from "./components/layout/footer/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Header />
       <Content />
+      <Footer />
 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
